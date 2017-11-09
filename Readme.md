@@ -1,10 +1,10 @@
 # EMPLOYEE APPLICATION PROJECT
 
-##About Project
+## About Project
 	The Application is develop using spring boot and use h2 in memory database. 
 	The artifacts are generated using maven. Generated jar is self executable jar and use embeded tomcat.
 	
-##How to run
+## How to run
 	This is maven project, get project to local computer make sure you have maven setup.
 	Run mvn clean install
 	Go to target folder EmployeRestProject-1.0.0.jar must be created
@@ -15,9 +15,9 @@
 	Please see below details of API and h2 database.
 	
 
-##API Details
+## API Details
 
-###Following API are exposed by EMPLOYEE Application
+### Following API are exposed by EMPLOYEE Application
 
 	GET EMPLOYEE BY AN ID
 		API :
@@ -115,7 +115,7 @@
 			]
 			
 
-##Start UP
+## Start UP
 	This application is using h2 in memory Database. 
 	On startup Employee objected will get loaded from data.sql provided in the 	class path. 
 	data.sql is present in resource directory.
@@ -140,7 +140,7 @@
 	| STATUS         | VARCHAR(10)       | Valid value ACTIVE/INACTIVE |
 	
 	
-###SQL to create table
+### SQL to create table
 
 	CREATE TABLE EMPLOYEE(ID INT PRIMARY KEY,
 	   FIRSTNAME VARCHAR(255),
