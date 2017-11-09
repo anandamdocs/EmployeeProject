@@ -1,0 +1,9 @@
+com\employee\EmployeeConfiguration.class
+com\employee\mapper\MapEmployeeEntityToEmployee.class
+com\employee\mapper\MapIterableEmployeeEntityToEmployeeList.class
+com\employee\persistence\EmployeeEntity.class
+com\employee\object\Employee.class
+com\employee\object\Status.class
+com\employee\EmployeeApplication.class
+com\employee\persistence\EmployeeRepository.class
+com\employee\mapper\MapEmployeeToEmployeeEntity.class

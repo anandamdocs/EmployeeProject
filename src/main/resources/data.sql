@@ -1,0 +1,2 @@
+insert into employee values(1126,'anand','rathi','jp',TO_DATE('12-12-1984','DD-MM-YYYY'),TO_DATE('12-12-1984','DD-MM-YYYY'),'ACTIVE')
+insert into employee values(1128,'Isaac','Lavioe','','2012-12-12','2012-12-12','ACTIVE')
