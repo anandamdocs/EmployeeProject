@@ -1,8 +1,26 @@
 # EMPLOYEE APPLICATION PROJECT
 
+
+
 ## About Project
 	The Application is develop using spring boot and use h2 in memory database. 
 	The artifacts are generated using maven. Generated jar is self executable jar and use embeded tomcat.
+	
+## Employee Application Architecture
+
+	High Level Technical design:
+	1.	Application is divided into three layer.
+	2.	First layer is application layer. The layer contains URL and rest service definition. 
+	3.	Second layer is service layer. Service contain implementation logic. Each service must implement abstract class EmployeeServiceBase.
+	a.	Service can be invoked using run method
+	b.	Run method invoke validate, execute and response method.
+	4.	Third layer is database layer
+	a.	This layer interacts with database
+	5.	Application layer can only interact with service layer and must not user repository layer directly.
+	6.	Service layer can interact with repository layer and perform database operation. Return response to Application layer. 
+	7.	Service layer use Mapper class to perform object mapping.
+
+	 
 	
 ## How to run
 	This is maven project, get project to local computer make sure you have maven setup.
